@@ -1,6 +1,8 @@
 <template>
     <header class="header">
-        <h1 class="logo">見せてほしいメーカー</h1>
+        <div class="header__inner">
+            <h1 class="logo">見せてほしいメーカー</h1>
+        </div>
     </header>
 </template>
 
@@ -8,6 +10,11 @@
 .header {
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
     padding: 1rem;
+}
+
+.header__inner {
+    margin-inline: auto;
+    max-width: var(--max-container-width);
 }
 
 .logo {
