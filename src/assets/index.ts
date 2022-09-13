@@ -9,6 +9,10 @@ import barGreenStart from "../assets/bar_green_start.png"
 import barGreenMiddle from "../assets/bar_green_middle.png"
 import barGreenEnd from "../assets/bar_green_end.png"
 
+import barRedStart from "../assets/bar_red_start.png"
+import barRedMiddle from "../assets/bar_red_middle.png"
+import barRedEnd from "../assets/bar_red_end.png"
+
 import barDisabledStart from "../assets/bar_disabled_start.png"
 import barDisabledMiddle from "../assets/bar_disabled_middle.png"
 import barDisabledEnd from "../assets/bar_disabled_end.png"
@@ -25,6 +29,12 @@ export const buttonImages: Record<string, ButtonImage> = {
         start: makeImageFromUrl(barGreenStart),
         middle: makeImageFromUrl(barGreenMiddle),
         end: makeImageFromUrl(barGreenEnd),
+    },
+    red: {
+        fontColor: "white",
+        start: makeImageFromUrl(barRedStart),
+        middle: makeImageFromUrl(barRedMiddle),
+        end: makeImageFromUrl(barRedEnd),
     },
     disabled: {
         fontColor: "black",

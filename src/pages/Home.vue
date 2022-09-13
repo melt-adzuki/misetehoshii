@@ -63,6 +63,10 @@ async function download(): Promise<void> {
 					<label for="green">緑</label>
 				</div>
 				<div>
+					<input type="radio" id="red" value="red" v-model="color" />
+					<label for="red">赤</label>
+				</div>
+				<div>
 					<input type="radio" id="white" value="disabled" v-model="color" />
 					<label for="white">白</label>
 				</div>
