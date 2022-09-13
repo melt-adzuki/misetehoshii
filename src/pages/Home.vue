@@ -59,12 +59,24 @@ async function download(): Promise<void> {
 					<label for="blue">青</label>
 				</div>
 				<div>
+					<input type="radio" id="peacockgreen" value="peacockGreen" v-model="color" />
+					<label for="peacockgreen">青緑</label>
+				</div>
+				<div>
 					<input type="radio" id="green" value="green" v-model="color" />
 					<label for="green">緑</label>
 				</div>
 				<div>
+					<input type="radio" id="yellow" value="yellow" v-model="color" />
+					<label for="yellow">黄</label>
+				</div>
+				<div>
 					<input type="radio" id="red" value="red" v-model="color" />
 					<label for="red">赤</label>
+				</div>
+				<div>
+					<input type="radio" id="pink" value="pink" v-model="color" />
+					<label for="pink">ピンク</label>
 				</div>
 				<div>
 					<input type="radio" id="white" value="disabled" v-model="color" />
